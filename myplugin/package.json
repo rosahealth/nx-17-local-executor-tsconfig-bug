@@ -1,12 +1,8 @@
 {
-  "name": "@myngapp/myplugin",
-  "version": "0.0.1",
-  "dependencies": {
-    "@nx/devkit": "16.10.0",
-    "tslib": "^2.3.0"
-  },
-  "type": "commonjs",
+  "executors": "./executors.json",
   "main": "./src/index.js",
+  "name": "@myngapp/myplugin",
+  "type": "commonjs",
   "typings": "./src/index.d.ts",
-  "executors": "./executors.json"
+  "version": "0.0.1"
 }
