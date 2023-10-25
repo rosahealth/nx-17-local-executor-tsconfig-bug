@@ -6,6 +6,9 @@
   "sourceRoot": "apps/myngapp/src",
   "tags": [],
   "targets": {
+    "bug-local-executor": {
+      "executor": "@myngapp/myplugin:myplugin"
+    },
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
